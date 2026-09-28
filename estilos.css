@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagenes/fondo.jpg);
+}
+body{
+    padding: 10px;
+}
+hr{
+    margin-top: 5px;
+    margin: 10px;
+    height: 3px;
+    background: black;
+}
+#cabecera{
+    margin:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+h1{
+    display: flex;
+    color: #00ADF1;
+    text-shadow: 3px 7px 10px lightslategray;
+}
+.marcador{
+    background: whitesmoke;
+}
+#cabecera img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+#autor{
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}
+.marcador2{
+    background: white;
+    padding: 2px;
+}
+sup{
+    background: white;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+#introduccion{
+    padding: 10px;
+}
+#contenido{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#definiciones{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+}
+.definicion{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    width: 30%;
+    align-self: center;
+}
+
+mark{
+    background: yellow;
+}
+.definicion p{
+    margin-top: 10px;
+    background: white;
+}
+.html1{
+    border: 1px solid #D9411F;
+    padding: 5px;
+    color: white;
+    background: #D9411F;
+    text-align: center;
+}
+.css1{
+    border: 1px solid #0477bf;
+    padding: 5px;
+    color: white;
+    background: #0477bf;
+    text-align: center;
+}
+.js1{
+    border: 1px solid #6aa614;
+    padding: 5px;
+    color: white;
+    background: #6aa614;
+    text-align: center;
+}
+#analogias{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+}
+.analogia{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    width: 30%;
+    align-self: center;
+}
+.analogia p{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: white;
+}
+.html2{
+    border: 1px solid #D9411F;
+    padding: 5px;
+    color: white;
+    background: #D9411F;
+    text-align: center;
+}
+.css2{
+    border: 1px solid #0477bf;
+    padding: 5px;
+    color: white;
+    background: #0477bf;
+    text-align: center;
+}
+.js2{
+    border: 1px solid #6aa614;
+    padding: 5px;
+    color: white;
+    background: #6aa614;
+    text-align: center;
+}
+.italic{
+    font-style: italic;
+}
+#casaimagen img{
+    display: flex;
+    margin-left: 220px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    box-shadow: 13px 15px 10px gray;
+}
+#resumen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    width: 55%;
+    border-radius: 7px;
+    box-shadow: 1px 7px 5px gray;
+}
+#resumen p{
+    background: white;
+}
+i{
+    background: transparent;
+}
